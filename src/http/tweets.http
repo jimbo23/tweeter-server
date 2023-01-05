@@ -1,0 +1,10 @@
+###
+GET http://127.0.0.1:5050/api/v1/tweets
+
+###
+POST http://127.0.0.1:5050/api/v1/tweets
+content-type: application/json
+
+{
+  "content": "testest"
+}

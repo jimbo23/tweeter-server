@@ -19,18 +19,9 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "importHelpers": true,
-    "baseUrl": "src/",
+    "baseUrl": "src",
     "paths": {
-      "@/*": ["*"],
-      "@config": ["config"],
-      "@controllers/*": ["controllers/*"],
-      "@dtos/*": ["dtos/*"],
-      "@exceptions/*": ["exceptions/*"],
-      "@interfaces/*": ["interfaces/*"],
-      "@middlewares/*": ["middlewares/*"],
-      "@routes/*": ["routes/*"],
-      "@services/*": ["services/*"],
-      "@utils/*": ["utils/*"]
+      "@*": ["*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.json", ".env"],
