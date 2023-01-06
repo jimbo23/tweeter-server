@@ -1,5 +1,5 @@
-import { uuid } from '@lib/uuid';
 import { Request, Response } from 'express';
+import { uuid } from '../lib/uuid';
 
 export class TweetsController {
   private tweets = [
